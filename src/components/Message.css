@@ -1,0 +1,98 @@
+.message{
+          display: flex;
+          justify-content: left;
+          padding: 10px 20px;
+          margin: 12px 0px;
+          border-top: 1px solid gainsboro;
+          border-bottom: 1px solid gainsboro;
+          flex: 1;
+}
+
+.message__right{
+          padding: 5px 20px;
+}
+
+.message__right img{
+          width: 404px;
+          border-radius: 20px;
+          margin: 10px 0px;
+}
+
+.message__rightIcon{
+          margin: 0px 20px;
+          cursor: pointer;
+}
+
+.message__rightName{
+          display: flex;
+          justify-content: space-between;
+}
+
+.message__childOne::first-letter{
+          text-transform: uppercase;
+}
+
+.message__childTwo{
+          font-weight: lighter;
+}
+
+.message__rightDotIcon{
+          cursor: pointer;
+          float: right;
+          color: rgb(128, 128, 128);
+          border-radius: 999px;
+          transition: 0.5s ease !important;
+}
+
+.message__rightDotIcon:hover{
+          background: rgba(220, 220, 220, 0.51);
+}
+
+.message__rightOptions{
+          margin-top: 20px;
+}
+
+/* icon decoration */
+
+.message__rightOptionOne{
+    color: gray;
+    transition: 0.5s ease !important;
+}
+
+.message__rightOptionOne:hover{
+          color: #1DA1F2;
+          background: #1da0f21d;
+}
+
+.message__rightOptionTwo{
+          color: gray;
+          transition: 0.5s ease !important; 
+          border-radius: 999px;
+}
+
+.message__rightOptionTwo:hover{
+          color: rgb(53, 233, 53);
+          background: #50eb391d;
+}
+
+.message__rightOptionThree{
+          color: gray;
+          transition: 0.5s ease !important; 
+          border-radius: 999px;
+}
+
+.message__rightOptionThree:hover{
+          color: rgb(255, 0, 43);
+          background: rgba(255, 0, 43, 0.068);
+}
+
+.message__rightOptionFour{
+          color: gray;
+          transition: 0.5s ease !important;
+          border-radius: 999px;
+      }
+      
+      .message__rightOptionFour:hover{
+                color: #1DA1F2;
+                background: #1da0f21d;
+      }

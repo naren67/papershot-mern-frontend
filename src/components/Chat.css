@@ -1,0 +1,73 @@
+.chat{
+       flex: 0.8;   
+       display: flex;
+       flex-direction: column;
+       height: 100vh;
+       border-right: 1px solid gainsboro;
+}
+
+.chat__input{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       padding: 10px 15px;
+       border-top: 1px solid gainsboro;
+       background: #F5F8FA;
+}
+
+.chat__inputTop{
+       display: flex;
+       align-items: center;
+}
+
+.chat__inputTop form input{
+       padding: 20px;
+       font-size: 16px;
+       width: 100%;
+       border: none;
+       outline: none;
+       background: #F5F8FA;
+}
+
+
+.chat__inputTop form{
+       flex: 1;
+}
+
+.chat__inputTop form .chat__keyboardButton{
+       display: none;
+}
+
+.chat__inputBottom{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.chat__optionButtons{
+       margin-left: 36px;
+}
+
+.chat__inputIcons{
+       margin: 0px 20px;
+       cursor: pointer;
+       color: #1DA1F2;
+}
+
+.chat__message{
+       flex: 1;
+       overflow-y: scroll;
+}
+
+.chat__message::-webkit-scrollbar{
+       display: block;
+       width: 0px;
+}
+
+.chat__input__tweetButton{
+       color: white !important;
+       background: #1DA1F2 !important;
+       border-radius: 50px !important;
+       padding: 10px 20px !important;
+       margin-bottom: 5px !important;
+}

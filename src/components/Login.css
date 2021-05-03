@@ -1,0 +1,49 @@
+.login{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100vh;
+}
+
+.login__top{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 0.9;
+}
+
+.login img{
+          width: 250px;
+          animation: rocket 3s linear infinite alternate-reverse;
+}
+
+@keyframes rocket{
+          form{
+                    transform: translateY(20px);
+          }
+          to{
+                    transform: translateY(-30px);
+          }
+}
+
+.login p{
+          font-size: calc(40px);
+          font-weight: bold;
+          color: gray         ;
+          margin-top: 60px;
+}
+
+.login__button{
+          margin-top: 50px !important;
+          width: 200px;
+          height: 40px;
+          background: gainsboro !important;
+}
+
+.login__bottom p{
+          font-size: 15px;
+          font-weight: lighter;
+}

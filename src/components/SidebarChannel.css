@@ -1,0 +1,13 @@
+.sidebarChannel{
+          display: flex;
+          align-items: center;
+          padding-left: 30px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          transition: 0.5s ease;
+}
+
+.sidebarChannel:hover{
+      cursor: pointer;
+      background: rgba(220, 220, 220, 0.537);
+}

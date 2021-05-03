@@ -1,0 +1,82 @@
+.sidebar{
+          display: flex;
+          flex-direction: column;
+          flex: 0.2;
+          height: 100vh;
+          border-left: 1px solid gainsboro;
+          border-right: 1px solid gainsboro;
+}
+
+.sidebar__logo{
+          margin: 30px auto;
+}
+
+.sidebar__logo img{
+          width: 123px;
+          height: 103px;
+}
+
+.sidebar__channels{
+          flex: 1;
+}
+
+.sidebar__channelsHeader{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+}
+
+.sidebar__header{
+          display: flex;
+          align-items: center;
+}
+
+.sidebar__channelsHeader{
+          border-top: 1px solid gainsboro;
+          border-bottom: 1px solid gainsboro;
+          background: #F5F8FA;
+}
+
+.sidebar__headerIcon{
+          transition: 0.5s ease !important;
+          color: gray;
+}
+
+.sidebar__headerIcon:hover{
+          color: #1DA1F2;
+          cursor: pointer;
+          transform: rotate(60deg);
+          background: rgba(220, 220, 220, 0.537);
+          border-radius: 999px;
+}
+
+.sidebar__footer{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10px;
+          border-top: 1px solid gainsboro;
+}
+
+.sidebar__footerAvatar{
+          margin-right: 10px;
+}
+
+.sidebar__footerLeft{
+          display: flex;
+          align-items: center;
+}
+
+.sidebar__footerIcon{
+          cursor: pointer;
+          transition: 0.5s ease !important;
+          color: gray;
+}
+
+.sidebar__footerIcon:hover{
+          color: red;
+          transform: rotate(-20deg);
+          background: rgba(220, 220, 220, 0.537);
+          border-radius: 999px;
+}

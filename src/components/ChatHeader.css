@@ -1,0 +1,36 @@
+.chatHeader{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px 20px;
+          border-bottom: 1px solid gainsboro;
+}
+
+.chatHeader p{
+          font-size: 20px;
+          font-weight: lighter;
+}
+
+.chat__headerRightIcons{
+          margin: 0px 15px;
+          cursor: pointer;
+          color: #1DA1F2;
+}
+
+.chat__headerRightIcons:hover{
+          background: rgba(220, 220, 220, 0.537);
+          border-radius: 999px;
+}
+
+.headerExplore__Icon{
+         animation: rotate 5s infinite linear alternate;
+}
+
+@keyframes rotate{
+          from{
+                    transform: rotate(0deg);
+          }
+          to{
+                    transform: rotate(360deg);
+          }
+}
